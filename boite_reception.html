@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Boite de reception</title>
+    <meta name="description" content="Boite de reception" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Toggles CSS -->
+    <link href="vendors/jquery-toggles/css/toggles.css" rel="stylesheet" type="text/css">
+    <link href="vendors/jquery-toggles/css/themes/toggles-light.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-it">
+        <div class="loader-pendulums"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- HK Wrapper -->
+    <div class="hk-wrapper hk-vertical-nav">
+        <div class="fixed-top bg-white shadow-sm">
+            <div class="container-fluid px-0">
+                <nav class="navbar navbar-expand-xl navbar-light hk-navbar hk-navbar-alt shadow-none">
+                    <a class="navbar-toggle-btn nav-link-hover navbar-toggler" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarCollapseAlt" aria-controls="navbarCollapseAlt" aria-expanded="false" aria-label="Toggle navigation"><span class="feather-icon"><i data-feather="menu"></i></span></a>
+                    <a class="navbar-brand" href="dashboard1.html">
+                    <div>
+                        <a href=""><img src="dist/img/logo_supdeco1.png" alt="" style="width: 100px;height: 100px;"></a>
+                    </div>
+                    </a>
+                    
+                    <div class="collapse navbar-collapse ml-auto" id="navbarCollapseAlt">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="index.html"><i
+                class="fa fa-home fa-fw"></i>Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="note.html"><i class="fa fa-bell fa-fw"></i> Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="assuidite.html"><i class="fa fa-book fa-fax"></i>Assuidité</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="transaction.html"><i class="fa fa-calculator"></i>Transactions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="emploi_du_temps.html"><i class="fa fa-calendar-o fa-fw"></i>Emploi du temps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html" target="_blank"><i class="fa fa-briefcase fa-fw"></i>Cours</a>
+                            </li>
+                            <li class="nav-item mr-10">
+                                <a class="nav-link" href="Cahier_text.html" target="_blank"><i class="fa fa-book fa-fw"></i>Cahier de texte</a>
+                            </li>
+                            <li class="nav-item dropdown dropdown-notifications">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="feather-icon"><i data-feather="bell"></i></span><span class="badge-wrap"><span class="badge badge-brown badge-indicator badge-indicator-sm badge-pill pulse"></span></span></a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <h6 class="dropdown-header">Notifications <a href="boite_reception.html" class="">Voir tout</a></h6>
+                                    <div class="notifications-nicescroll-bar">
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">12m</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar2.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0);" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <span class="avatar-text avatar-text-primary rounded-circle">
+                                                                <span class="initial-wrap"><span><i class="zmdi zmdi-account font-18"></i></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau messageon <span class="text-dark text-capitalize">Vendredi 19 Mai</span> at <span class="text-dark">10.00 am</span></div>
+                                                        <div class="notifications-time">2d</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-authentication">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar">
+                                                <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                            <span class="badge badge-success badge-indicator"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Khalifa Niass<i class="zmdi zmdi-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+                                    <a class="dropdown-item" href="profil.html"><i class="dropdown-icon zmdi zmdi-account"></i><span>Profile</span></a>
+                                    <a class="dropdown-item" href="boite_reception.html"><i class="dropdown-icon zmdi zmdi-email"></i><span>Messagerie</span></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-power"></i><span>Déconnexion</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>  
+        </div>
+        <!-- Main Content -->
+        <div class="hk-pg-wrapper pt-135">
+            <!-- Container -->
+            <div class="container-fluid">
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-xl-12 pa-0">
+                        <div class="emailapp-wrap">
+                            <div class="emailapp-sidebar">
+                                <div class="nicescroll-bar">
+                                    <div class="emailapp-nav-wrap">
+                                        <a id="close_emailapp_sidebar" href="javascript:void(0)" class="close-emailapp-sidebar">
+                                            <span class="feather-icon"><i data-feather="chevron-left"></i></span>
+                                        </a>
+                                        <ul class="nav flex-column mail-category">
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="boite_reception.html"><span class="feather-icon"><i data-feather="mail"></i></span>&nbsp;Reception<span class="badge badge-primary">50</span></a>
+                                            </li>
+                                            <li class="nav-item sms_envoyes">
+                                                <a class="nav-link" href="javascript:void(0);"><span class="feather-icon"><i data-feather="send"></i></span>&nbsp;Envoyés</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="email-compose nav-link" data-toggle="modal" data-target="#exampleModalEmail">
+                                            <span class="feather-icon"><i data-feather="edit"></i></span>&nbsp;Nouveau&nbsp;message</a>
+                                            </li>
+                                        </ul>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="email-box">
+                                <div class="emailapp-left">
+                                    <header>
+                                        <a href="javascript:void(0)" id="emailapp_sidebar_move" class="emailapp-sidebar-move">
+                                            <span class="feather-icon"><i data-feather="menu"></i></span>
+                                        </a>
+                                        <span id="title">Boite de reception</span>
+                                        <a href="javascript:void(0)" class="email-compose" data-toggle="modal" data-target="#exampleModalEmail">
+                                            <span class="feather-icon"><i data-feather="edit"></i></span>
+                                        </a>
+                                    </header>
+                                    <div class="emailapp-emails-list" id="liste_message">
+                                        <div class="nicescroll-bar">
+                                            <a href="javascript:void(0);" class="media message" id="1">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar">
+                                                        <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="email-head">Administration</div>
+                                                        <div class="email-subject">Disponibilité de document(s) administratif(s)</div>
+                                                        <div class="email-text">
+                                                            <p>Bonjour Mr Fall, votre certificat d'inscription en 2ème année de licence est maintenant disponible. Vous pouvez le récupèrer au près de Mr Allogho</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="last-email-details"><span class="badge badge-warning badge-indicator"></span>17/06/19 à 16:23</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="email-hr-wrap">
+                                                <hr>
+                                            </div>
+                                            <a href="javascript:void(0);" class="media message" data-toggle="emailapp-right" data-target="#details_message" aria-hidden="true" id="1">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar">
+                                                        <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="email-head">Administration</div>
+                                                        <div class="email-subject">Information</div>
+                                                        <div class="email-text">
+                                                            <p>Bonjour chers étudiants, le club informatique organise un atelier d'initiation à la programmation embarquée le samedi 27 Juillet 2019 à 10:00 au campus Point E de Supdeco</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="last-email-details"><span class="badge badge-warning badge-indicator"></span>17/06/19 à 14:15</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="email-hr-wrap">
+                                                <hr>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="emailapp-right fade details_message" tabindex="-1" id="1">
+                                    <header>
+                                        <a id="back_email_list" href="javascript:void(0)" class="back-email-list">
+                                            <span class="feather-icon"><i data-feather="chevron-left"></i></span>
+                                        </a>
+                                        
+                                    </header>
+                                    <div class="email-body">
+                                        <div class="nicescroll-bar">
+                                            <div>
+                                                <div class="email-subject-head">
+                                                    <h4>Disponibilité de document(s) administratif(s)
+                                                    </h4>
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="badge badge-secondary">Reception</span>
+                                                    </div>
+                                                </div>
+                                                <hr class="mt-10 mb-20">
+                                                <div class="email-head">
+                                                    <div class="media">
+                                                        <div class="media-img-wrap">
+                                                            <div class="avatar">
+                                                                <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <span class="text-capitalize sender-name d-inline-block">Administration</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="head-other-wrap">
+                                                        <div class="d-inline-block mr-5">
+                                                            <span class="d-inline-block">17/06/19 à 16:23</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="email-text-wrap mt-30">
+                                                    <span class="d-block email-title text-capitalize mb-30">Cher Mohamed Fall,</span>
+                                                    <p class="mb-30">Votre certificat d'inscription en 2ème année de licence est maintenant disponible.Vous pouvez le récupèrer au près de Mr Allogho
+                                                    </p>
+                                                    <p>Les retraits de documents se font entre 14 heures et 16 heures.</p>
+                                                    <p class="mt-30">Merci de votre attention.</p>
+                                                </div>
+                                                <hr class="hr-light">
+                                                <div class="email-attachment-wrap">
+                                                    <div class="email-attachment-block">
+                                                        <a href="javascript:void(0)">
+                                                            <div class="card card-sm w-200p">
+                                                                <div class="card-body d-flex align-items-center">
+                                                                    <img src="dist/img/jpgicon.png" class="d-inline-block mr-10" alt="attachicon" />
+                                                                    <span class="d-inline-block mnw-0">
+                                                                        <span class="d-block file-name text-truncate">concept_design.jpg</span>
+                                                                        <small class="d-block file-size text-truncate">5.78 MB</small>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>    
+                                                        <a href="javascript:void(0)">
+                                                            <div class="card card-sm w-200p">
+                                                                <div class="card-body d-flex align-items-center">
+                                                                    <img src="dist/img/pdficon.png" class="d-inline-block mr-10" alt="attachicon" />
+                                                                    <span class="d-inline-block mnw-0">
+                                                                            <span class="d-block file-name text-truncate">Design-titleccv.pdf</span>
+                                                                    <small class="d-block file-size text-truncate">2.1 MB</small>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="d-flex ml-auto">
+                                                        <a href="javascript:void(0)"><i class="zmdi zmdi-download"></i></a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <!-- Compose email -->
+                            <div class="modal fade" id="exampleModalEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalEmail" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-grey-dark-5">
+                                            <h6 class="modal-title text-white" id="exampleModalPopoversLabel">Contacter l'administration</h6>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Objet</span>
+                                                        </div>
+                                                        <input type="text" name="objet" class="form-control">
+                                                    </div>
+                                                </div>
+                                                Message
+                                                <div class="form-group">
+                                                    <div class="tinymce-wrap">
+                                                        <textarea class="tinymce" name="message"></textarea>
+                                                    </div>
+                                                </div>
+                                                
+                                                </div>
+                                                <div class="form-group mb-0">
+                                                    <button class="btn btn-primary" type="submit">Envoyer</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Compose email -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+        </div>
+        <!-- /Main Content -->
+
+    </div>
+    <!-- /HK Wrapper -->
+
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Jasny-bootstrap  JavaScript -->
+    <script src="vendors/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+
+    <!-- Slimscroll JavaScript -->
+    <script src="dist/js/jquery.slimscroll.js"></script>
+
+    <!-- Fancy Dropdown JS -->
+    <script src="dist/js/dropdown-bootstrap-extended.js"></script>
+
+    <!-- Tinymce JavaScript -->
+    <script src="vendors/tinymce/tinymce.min.js"></script>
+
+    <!-- Tinymce Wysuhtml5 Init JavaScript -->
+    <script src="dist/js/tinymce-data.js"></script>
+
+    <!-- FeatherIcons JavaScript -->
+    <script src="dist/js/feather.min.js"></script>
+
+    <!-- Toggles JavaScript -->
+    <script src="vendors/jquery-toggles/toggles.min.js"></script>
+    <script src="dist/js/toggle-data.js"></script>
+
+    <!-- Init JavaScript -->
+    <script src="dist/js/init.js"></script>
+
+    <!-- JavaScript -->
+    <script src="dist/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2772 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Brunette - Responsive Bootstrap 4 Admin Dashboard Template
+Author: Hencework
+Contact: support@hencework.com
+License: You must have a valid license purchased only from themeforest to legally use the template for your project.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cours</title>
+    <meta name="description" content="A responsive bootstrap 4 admin dashboard template by hencework" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Lightgallery CSS -->
+    <link href="dist/css/lightgallery.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Preloader -->
+    <div class="preloader-it">
+        <div class="loader-pendulums"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- HK Wrapper -->
+    <div class="hk-wrapper hk-alt-nav hk-landing" >
+        <div class="fixed-top bg-white shadow-sm">
+            <div class="container-fluid px-0">
+                <nav class="navbar navbar-expand-xl navbar-light hk-navbar hk-navbar-alt shadow-none">
+                    <a class="navbar-toggle-btn nav-link-hover navbar-toggler" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarCollapseAlt" aria-controls="navbarCollapseAlt" aria-expanded="false" aria-label="Toggle navigation"><span class="feather-icon"><i data-feather="menu"></i></span></a>
+                    <a class="navbar-brand" href="dashboard1.html">
+                    <div>
+                        <a href=""><img src="dist/img/logo_supdeco1.png" alt="" style="width: 100px;height: 100px;"></a>
+                    </div>
+                    </a>
+                    
+                    <div class="collapse navbar-collapse ml-auto" id="navbarCollapseAlt">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="index.html"><i
+                class="fa fa-home fa-fw"></i>Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="note.html"><i class="fa fa-bell fa-fw"></i> Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="assuidite.html"><i class="fa fa-book fa-fax"></i>Assuidité</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="transaction.html"><i class="fa fa-calculator"></i>Transactions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="emploi_du_temps.html"><i class="fa fa-calendar-o fa-fw"></i>Emploi du temps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html" target="_blank"><i class="fa fa-briefcase fa-fw"></i>Cours</a>
+                            </li>
+                            <li class="nav-item mr-10">
+                                <a class="nav-link" href="Cahier_text.html" target="_blank"><i class="fa fa-book fa-fw"></i>Cahier de texte</a>
+                            </li>
+                            <li class="nav-item dropdown dropdown-notifications">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="feather-icon"><i data-feather="bell"></i></span><span class="badge-wrap"><span class="badge badge-brown badge-indicator badge-indicator-sm badge-pill pulse"></span></span></a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <h6 class="dropdown-header">Notifications <a href="boite_reception.html" class="">Voir tout</a></h6>
+                                    <div class="notifications-nicescroll-bar">
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">12m</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar2.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0);" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <span class="avatar-text avatar-text-primary rounded-circle">
+                                                                <span class="initial-wrap"><span><i class="zmdi zmdi-account font-18"></i></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau messageon <span class="text-dark text-capitalize">Vendredi 19 Mai</span> at <span class="text-dark">10.00 am</span></div>
+                                                        <div class="notifications-time">2d</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-authentication">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar">
+                                                <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                            <span class="badge badge-success badge-indicator"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Khalifa Niass<i class="zmdi zmdi-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+                                    <a class="dropdown-item" href="profil.html"><i class="dropdown-icon zmdi zmdi-account"></i><span>Profile</span></a>
+                                    <a class="dropdown-item" href="boite_reception.html"><i class="dropdown-icon zmdi zmdi-email"></i><span>Messagerie</span></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-power"></i><span>Déconnexion</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>  
+        </div>  
+        <!-- Main Content -->
+        <div class="hk-pg-wrapper pt-0">
+            <!-- Row -->
+        
+                    
+                    <!-- Preview Sec -->
+                    <section id="preview_sec" class="bg-brown-light-5 hk-landing-sec">
+                        <div class="container position-relative pt-50">
+                            <!-- <div class="hk-row text-center"> -->
+                                  <div class="prod_box_list">
+                                    <div class="center_prod_box_list">
+                           
+            <div class="row">
+
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <i class="fa fa-briefcase fa-fw"></i> Vos Cours
+                </div>
+                <div class="panel-body">
+                    <div role="tabpanel">
+
+                        <!-- Nav tabs -->
+                        
+                            
+                            
+                        
+
+                        <!-- Tab panes -->
+                        <div class="tab-content" style="padding: 15px">
+                            <div role="tabpanel" class="tab-pane active" id="list" >
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default panel-info">
+                                            <div class="panel-heading" role="tab" id="heading-2017-2018">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2017-2018" aria-expanded="true" aria-controls="collapse-2017-2018">
+                                                        Année scolaire&nbsp;2018-2019
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        
+                                            <div id="collapse-2017-2018" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2017-2018">
+                                        
+                                                <div class="table-responsive scroll500">
+
+                                                    
+                                                    <table class="table table-bordered table-hover table-striped">
+
+                                                        <tbody>
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Gestion des Projets
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Pas de professeur &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Droit Informatique
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Pas de professeur &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 20 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            TEC
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Mme Touré &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            ASP.NET
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Bilal Fall &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                           Organisation des entreprises
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Mme Gnangnon &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Cartographie
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Beda Komlan &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Entrepot de donnée
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Beda Komlan &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Stratégie de management
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                Wilner  &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 3ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL3-INFO BO.18-19
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Base de données
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050288 - Diafara CISSE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 100 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Introduction au C-Sharp/ASP
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050894 - bilal FALL &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 10 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 5
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            PHP-POO/MYSQL
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050425 - Mamadou DIEYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Projet Administration Linux
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050633 - Souleymane BAH &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Python
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050968 - Mouhamed DIOP &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Statistique et Probabilité II
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050452 - Ahamada YOUSSOUF &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 60 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technologie Web : Jquery - AJAX
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050672 - WALY DIOME &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="panel panel-default panel-info">
+                                            <div class="panel-heading" role="tab" id="heading-2017-2018">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2017-2018" aria-expanded="true" aria-controls="collapse-2017-2018">
+                                                        Année scolaire&nbsp;2017-2018
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        
+                                            <div id="collapse-2017-2018" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2017-2018">
+                                        
+                                                <div class="table-responsive scroll500">
+
+                                                    
+                                                    <table class="table table-bordered table-hover table-striped">
+
+                                                        <tbody>
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Administration Linux 
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050633 - Souleymane BAH &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 115 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Algèbre relationnel et les bases de données
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050288 - Diafara CISSE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 109 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Anglais (M3)
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050568 - Gilbert Bobstrong LOUMBANGOU &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            CSI UML
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050101 - FATOU  FAYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            PHP/MYSQL
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050425 - Mamadou DIEYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Statistique et Probabilité
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050452 - Ahamada YOUSSOUF &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 104 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 3
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technologie WEB
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050672 - WALY DIOME &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 100 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Anglais (M4)
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050559 - Ibrahima DIAGNE  &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 60 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Base de données
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050288 - Diafara CISSE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 100 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Introduction au C-Sharp/ASP
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050894 - bilal FALL &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 10 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            PHP-POO/MYSQL
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050425 - Mamadou DIEYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Projet Administration Linux
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050633 - Souleymane BAH &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Python
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050968 - Mouhamed DIOP &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Statistique et Probabilité II
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050452 - Ahamada YOUSSOUF &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 60 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 2ème année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCL2-INFO BO.17-18
+
+                                                                            </em></b> | Semestre 4
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technologie Web : Jquery - AJAX
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050672 - WALY DIOME &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="panel panel-default panel-info">
+                                            <div class="panel-heading" role="tab" id="heading-2016-2017">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2016-2017" aria-expanded="true" aria-controls="collapse-2016-2017">
+                                                        Année scolaire&nbsp;2016-2017
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        
+                                            <div id="collapse-2016-2017" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2016-2017">
+                                        
+                                                <div class="table-responsive scroll500">
+
+                                                    
+                                                    <table class="table table-bordered table-hover table-striped">
+
+                                                        <tbody>
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Algorithmique et langage C 
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050425 - Mamadou DIEYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 44 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Analyse I
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050064 - Mohamed B. GAYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 32 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Anglais Technique I
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050537 - Mamadou Salif DIALLO &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Architecture des ordinateurs
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050293 - Wilden Colbert DOUCKAGA &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Electronique numérique 
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050101 - FATOU  FAYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 40 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Internet Concept et Utilisation 
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+
+
+                                                                            <small class="text-muted pull-left">
+
+                                                                                [Pas de professeur]
+                                                                            </small>
+
+
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                             <div style="color: #D9534F;">
+
+                                                                                 [Pas de syllabus]
+                                                                             </div>
+
+
+
+                                                                         
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Réseaux Informatiques
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050108 - ALEX  THIAM &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 32 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technique d'Expression française
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050122 - SOKHNA  FALL TOURE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 36 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 1
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technologie WEB
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050103 - ABDOULAYE  DIENG &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 60 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Analyse 2
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050064 - Mohamed B. GAYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 32 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Anglais
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+
+
+                                                                            <small class="text-muted pull-left">
+
+                                                                                [Pas de professeur]
+                                                                            </small>
+
+
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                             <div style="color: #D9534F;">
+
+                                                                                 [Pas de syllabus]
+                                                                             </div>
+
+
+
+                                                                         
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Anglais Technique II
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050537 - Mamadou Salif DIALLO &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            CSI MERISE
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050345 - Armel Geraud MADJITOLOUM &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 36 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Introduction au système Linux
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050633 - Souleymane BAH &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Introduction au Télécommunication 
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050119 - SOUADRIDINE  MOINDZE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 30 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Langage C
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050425 - Mamadou DIEYE &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 40 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Réseaux Informatiques
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050108 - ALEX  THIAM &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 32 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="even">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Système de Gestion de Fichiers
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+
+
+                                                                            <small class="text-muted pull-left">
+
+                                                                                [Pas de professeur]
+                                                                            </small>
+
+
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                             <div style="color: #D9534F;">
+
+                                                                                 [Pas de syllabus]
+                                                                             </div>
+
+
+
+                                                                         
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                                <tr class="odd">
+                                                                    <td class="col-md-12">
+                                                                        <div class="header">
+                                                                        <small class="text-muted pull-right">
+                                                                        TCINFO | 1ère année
+                                                                        </small>
+                                                                        <small class="text-muted pull-left">
+                                                                            <b><em><i
+                                                                                    class="fa fa-suitcase"></i> TCINFO-1E BO2016
+
+                                                                            </em></b> | Semestre 2
+
+                                                                        </small>
+                                                                        </div>
+                                                                        <br/>
+
+
+                                                                        <div style="font-size: 18px; font-weight: bold;">
+                                                                            Technologie WEB II
+                                                                        </div>
+
+                                                                        
+
+                                                                        
+                                                                            <small class="text-muted pull-left">
+                                                                                <i class="fa fa-user-md"></i>
+                                                                                Professeur :
+                                                                                P050103 - ABDOULAYE  DIENG &nbsp;| &nbsp;  Statut : Suivi &nbsp; | Volume horaire : 60 H
+
+                                                                            </small>
+
+                                                                        
+                                                                        <small class="text-muted pull-right">
+                                                                
+                                                                    
+                                                                        <div style="color: #D9534F;">
+
+                                                                               [Pas de syllabus]
+
+                                                                        </div>
+
+                                                                    
+                                                                  
+                                                                         </small>
+
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+           </div>
+       </div>
+</div>
+            </div>
+        </div>
+</div>
+</div>
+</section>
+
+            <!-- /Row -->
+            
+            <!-- Footer -->
+            <div class="hk-footer-wrap container">
+                <footer class="footer">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <p>Pampered by<a href="https://hencework.com/" class="text-dark" target="_blank">Hencework</a> © 2019</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <p class="d-inline-block">Follow us</p>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-facebook"></i></span></a>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-twitter"></i></span></a>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-google-plus"></i></span></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- /Footer -->
+        </div>
+        <!-- /Main Content -->
+
+    </div>
+    <!-- /HK Wrapper -->
+  
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Owl JavaScript -->
+    <script src="vendors/owl.carousel/dist/owl.carousel.min.js"></script>
+    
+    <!-- FeatherIcons JavaScript -->
+    <script src="dist/js/feather.min.js"></script>
+    
+    <!-- Gallery JavaScript -->
+    <script src="vendors/lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="dist/js/froogaloop2.min.js"></script>
+    
+    <!-- Init JavaScript -->
+    <script src="dist/js/lightgallery-all.js"></script>
+    <script src="dist/js/landing-data.js"></script>
+    <script src="dist/js/init.js"></script>
+    </body>
+
+</html> 

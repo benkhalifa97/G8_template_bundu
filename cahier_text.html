@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Brunette - Responsive Bootstrap 4 Admin Dashboard Template
+Author: Hencework
+Contact: support@hencework.com
+License: You must have a valid license purchased only from themeforest to legally use the template for your project.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cahier de texte</title>
+    <meta name="description" content="A responsive bootstrap 4 admin dashboard template by hencework" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- Lightgallery CSS -->
+    <link href="dist/css/lightgallery.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Preloader -->
+    <div class="preloader-it">
+        <div class="loader-pendulums"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- HK Wrapper -->
+    <div class="hk-wrapper hk-alt-nav hk-landing">
+		<div class="fixed-top bg-white shadow-sm">
+            <div class="container-fluid px-0">
+                <nav class="navbar navbar-expand-xl navbar-light hk-navbar hk-navbar-alt shadow-none">
+                    <a class="navbar-toggle-btn nav-link-hover navbar-toggler" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarCollapseAlt" aria-controls="navbarCollapseAlt" aria-expanded="false" aria-label="Toggle navigation"><span class="feather-icon"><i data-feather="menu"></i></span></a>
+                    <a class="navbar-brand" href="dashboard1.html">
+                    <div>
+                        <a href=""><img src="dist/img/logo_supdeco1.png" alt="" style="width: 100px;height: 100px;"></a>
+                    </div>
+                    </a>
+                    
+                    <div class="collapse navbar-collapse ml-auto" id="navbarCollapseAlt">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="index.html"><i
+                class="fa fa-home fa-fw"></i>Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-scroll href="note.html"><i class="fa fa-bell fa-fw"></i> Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="assuidite.html"><i class="fa fa-book fa-fax"></i>Assuidité</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="transaction.html"><i class="fa fa-calculator"></i>Transactions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-scroll href="emploi_du_temps.html"><i class="fa fa-calendar-o fa-fw"></i>Emploi du temps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cour.html" target="_blank"><i class="fa fa-briefcase fa-fw"></i>Cours</a>
+                            </li>
+                            <li class="nav-item mr-10">
+                                <a class="nav-link" href="Cahier_text.html" target="_blank"><i class="fa fa-book fa-fw"></i>Cahier de texte</a>
+                            </li>
+                            <li class="nav-item dropdown dropdown-notifications">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="feather-icon"><i data-feather="bell"></i></span><span class="badge-wrap"><span class="badge badge-brown badge-indicator badge-indicator-sm badge-pill pulse"></span></span></a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <h6 class="dropdown-header">Notifications <a href="boite_reception.html" class="">Voir tout</a></h6>
+                                    <div class="notifications-nicescroll-bar">
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar1.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">12m</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="boite_reception.html" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="dist/img/avatar2.jpg" alt="user" class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau message</div>
+                                                        <div class="notifications-time">1h</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="javascript:void(0);" class="dropdown-item">
+                                            <div class="media">
+                                                <div class="media-img-wrap">
+                                                    <div class="avatar avatar-sm">
+                                                        <span class="avatar-text avatar-text-primary rounded-circle">
+                                                                <span class="initial-wrap"><span><i class="zmdi zmdi-account font-18"></i></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <div class="notifications-text"><span class="text-dark text-capitalize">Administration</span> vous a envoyé un nouveau messageon <span class="text-dark text-capitalize">Vendredi 19 Mai</span> at <span class="text-dark">10.00 am</span></div>
+                                                        <div class="notifications-time">2d</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-authentication">
+                                <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar">
+                                                <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                            <span class="badge badge-success badge-indicator"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <span>Khalifa Niass<i class="zmdi zmdi-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+                                    <a class="dropdown-item" href="profil.html"><i class="dropdown-icon zmdi zmdi-account"></i><span>Profile</span></a>
+                                    <a class="dropdown-item" href="boite_reception.html"><i class="dropdown-icon zmdi zmdi-email"></i><span>Messagerie</span></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-power"></i><span>Déconnexion</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>  
+        </div>
+    
+		<!-- Main Content -->
+        <div class="hk-pg-wrapper pt-0">
+			<!-- Row -->
+			<div class="row">
+				<div class="col-xl-12">
+					<!-- Preview Sec -->
+					<section id="preview_sec" class="bg-brown-light-5 hk-landing-sec">
+						<div class="container position-relative pt-50">
+							<div class="container">
+                               <div class="prod_box_list">
+                                            <div class="top_prod_box"></div>
+                                    <div class="center_prod_box_list" style="height: auto">
+                                         <div class="row">
+                <div class="col-md-12">
+                    <h3 class="page-header">Cahier de texte</h3>
+                    <div class="">
+                        <span class="pull-right" style="margin-top: -40px">
+                        
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <i class="fa fa-briefcase fa-fw"></i> TCL2-INFO BO.17-18
+                </div>
+                <div class="panel-body">
+                <div class="table-responsive scroll500">
+
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Professeur</th>
+                            <th>Cours</th>
+                            <th>Date Cours</th>
+                            <th>Début</th>
+                            <th>Fin</th>
+                            <th>durée</th>
+                            <th>Consulter</th>
+                         </tr>
+                         <tr>
+                             <th>Mme Touré</th>
+                             <th>TEC</th>
+                             <th>25/07/2019</th>
+                             <th>14H</th>
+                             <th>17H</th>
+                             <th>3H</th>
+                             <th> 
+                         <!--    <div class="row">
+                                <div class="col-sm"> -->
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <span class="glyphicon glyphicon-search"></span>Détail
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  <table class="table table-hover">
+                                                        <tr>
+                                                            <th>Horaire</th>
+                                                            <th>Séance</th>
+                                                            <th>Détailséance</th>
+                                                            <th>Année Scolaire</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>15h-17h</td>
+                                                            <td>1</td>
+                                                            <td>Prise de contact</td>
+                                                            <td>2018-2019</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Contester</button>
+                                                    <button type="button" class="btn btn-primary">valider</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                      </th>
+                         </tr>
+                          <tr>
+                             <th>Mr Diop</th>
+                             <th>Comptabilité Analytique</th>
+                             <th>22/07/2019</th>
+                             <th>8H</th>
+                             <th>12H</th>
+                             <th>4H</th>
+                             <th> 
+                         <!--    <div class="row">
+                                <div class="col-sm"> -->
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <span class="glyphicon glyphicon-search"></span>Détail
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                   <table class="table table-hover">
+                                                        <tr>
+                                                            <th>séance</th>
+                                                            <th>Discipline</th>
+                                                            <th>Groupe</th>
+                                                            <th>TypeSéance</th>
+                                                            <th>Année Scolaire</th>
+                                                        </tr>
+                                                          <tr>
+                                                            <td>8h-12h</td>
+                                                            <td>2</td>
+                                                            <td>TRECI,tableau du coût variable,</td>
+                                                            <td>2018-2019</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Contester</button>
+                                                    <button type="button" class="btn btn-primary">valider</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                      </th>
+                         </tr>
+                          <tr>
+                             <th>Mr Ndiaye</th>
+                             <th>Math Finance</th>
+                             <th>23/07/2019</th>
+                             <th>8H</th>
+                             <th>12H</th>
+                             <th>4H</th>
+                             <th> 
+                         <!--    <div class="row">
+                                <div class="col-sm"> -->
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <span class="glyphicon glyphicon-search"></span>Détail
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table class="table table-hover">
+                                                        <tr>
+                                                            <th>séance</th>
+                                                            <th>Discipline</th>
+                                                            <th>Groupe</th>
+                                                            <th>TypeSéance</th>
+                                                            <th>Année Scolaire</th>
+                                                        </tr>
+                                                          <tr>
+                                                            <td>8h-12h</td>
+                                                            <td>1</td>
+                                                            <td>Travaux pratiques</td>
+                                                            <td>2018-2019</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Contester</button>
+                                                    <button type="button" class="btn btn-primary">valider</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                      </th>
+                         </tr>
+                        </thead>
+                         </table>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+                    
+        <!-- /.panel-footer -->
+    </div>
+</div>
+          </div>
+        <!--      <div class="bottom_prod_box"></div>             -->
+          </div>
+              </div>
+					<!-- /Adv Sec -->
+				</div>
+			</div>
+			<!-- /Row -->
+            
+			<!-- Footer -->
+            <div class="hk-footer-wrap container">
+                <footer class="footer">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <p>Pampered by<a href="https://hencework.com/" class="text-dark" target="_blank">Hencework</a> © 2019</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <p class="d-inline-block">Follow us</p>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-facebook"></i></span></a>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-twitter"></i></span></a>
+                            <a href="#" class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-google-plus"></i></span></a>
+                        </div>  
+                    </div>
+                </footer>
+            </div>
+            <!-- /Footer -->
+        </div>
+        <!-- /Main Content -->
+
+    </div>
+    <!-- /HK Wrapper -->
+  
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<!-- Owl JavaScript -->
+    <script src="vendors/owl.carousel/dist/owl.carousel.min.js"></script>
+	
+	<!-- FeatherIcons JavaScript -->
+    <script src="dist/js/feather.min.js"></script>
+	
+	<!-- Gallery JavaScript -->
+    <script src="vendors/lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="dist/js/froogaloop2.min.js"></script>
+    
+	<!-- Init JavaScript -->
+    <script src="dist/js/lightgallery-all.js"></script>
+    <script src="dist/js/landing-data.js"></script>
+    <script src="dist/js/init.js"></script>
+	</body>
+
+</html>	
